@@ -1,0 +1,59 @@
+@media (min-width: 979px) and (max-width: 1200px) {
+
+	.row {
+		margin-left: -30px;
+	}
+
+	.span4 {
+		width: 290px;
+	}
+
+	[class*="span"] {
+		float: left;
+		min-height: 1px;
+		margin-left: 30px;
+	}
+	
+}
+
+@media (max-width: 979px) {
+
+	.photos .row {
+		margin-bottom: 0;
+	}
+
+	[class*="span"] {
+		margin-bottom: 30px;
+	}
+
+	.footer {
+		font-size: 18px;
+		letter-spacing: 2px
+	}
+
+	.footer h2 {
+		font-size: 22px;
+	}
+
+	.footer span {
+		display: block;
+	}
+	
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+	.row {
+		margin-left: -30px;
+	}
+
+	.span4 {
+		width: 218px;
+	}
+
+	[class*="span"] {
+		float: left;
+		min-height: 1px;
+		margin-left: 30px;
+	}
+}
+
