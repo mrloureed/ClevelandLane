@@ -1,0 +1,60 @@
+body {
+	background: #521700;
+	font-family: MyriadPro-Light, "Myriad Pro", Helvetica, Sans-Serif;
+	color: #B8BE55;
+}
+
+a { 
+	color: #B8BE55;
+}
+
+em {
+	font-style: italic;
+	color: #878200;
+}
+
+.logo {
+	margin: 52px auto 26px;
+	text-align: center;
+}
+
+.photos img {
+	border: 3px solid #fff;
+}
+
+.photos a:hover img {
+	border: 3px solid #FFFFA9;
+}
+
+.photos .row {
+	margin-bottom: 26px;
+}
+
+.footer h2 {
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: normal;
+}
+
+.footer {
+	font-size: 24px;
+	letter-spacing: 2px
+}
+
+.footer p {
+	font-family: Garamond, Georgia, Serif;
+	text-align: center;
+}
+
+.footer em { 
+	margin: 0 5px 0 20px; 
+}
+
+.footer em:first-child { 
+	margin-left: 0; 
+}
+
+.footer em:last-child { 
+	margin-right: 0; 
+}
+
