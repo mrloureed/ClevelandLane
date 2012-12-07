@@ -57,3 +57,19 @@
 	}
 }
 
+@media (max-width: 768px) {
+	.row {
+		margin-left: -15px;
+	}
+
+	.span4 {
+		width: 100px;
+	}
+
+	[class*="span"] {
+		float: left;
+		min-height: 1px;
+		margin-left: 21px;
+		margin-bottom: 20px;
+	}
+}
