@@ -58,6 +58,12 @@
 }
 
 @media (max-width: 768px) {
+
+	.photos {
+		width: 280px;
+		margin: 0 auto;
+	}
+
 	.row {
 		margin-left: -20px;
 	}
@@ -81,8 +87,19 @@
 		font-size: 13px;
 	}
 
-	.footer h2 {
+	h1, .footer h2 {
+		line-height: 1.4em;
 		letter-spacing: 2px;
 		font-size: 16px;
+	}
+
+	.promo {
+	padding: 20px 50px 0;
+	height: 200px;
+	text-align: center;
+	}
+
+	.promo img {
+		max-width: 100px;
 	}
 }
