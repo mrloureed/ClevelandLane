@@ -8,7 +8,7 @@ body {
 h1 {
 	margin: 30px 0 0;
 	text-transform: uppercase;
-	font-size: 31.5px;
+	font-size: 22px;
 }
 
 a { 
@@ -23,6 +23,10 @@ em {
 .logo {
 	margin: 39px auto 26px;
 	text-align: center;
+}
+
+.photos {
+	position: relative;
 }
 
 .photos img {
@@ -66,7 +70,11 @@ h1, .footer h2 {
 }
 
 .promo {
-	padding: 20px 50px 0;
-	height: 200px;
-	text-align: right;
+	position: absolute;
+	right: -150px;
+	bottom: 30px;
+}
+
+.promo-mobile {
+	display: none;
 }

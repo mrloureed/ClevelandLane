@@ -1,3 +1,14 @@
+@media (min-width: 1200px) {
+	.photos {
+		width: 940px;
+	}
+
+	.span4 {
+		width: 290px;
+	}
+
+}
+
 @media (min-width: 979px) and (max-width: 1200px) {
 
 	.row {
@@ -16,7 +27,7 @@
 	
 }
 
-@media (max-width: 979px) {
+@media (max-width: 979px) OR (min-width: 1200px) {
 
 	.photos .row {
 		margin-bottom: 0;
@@ -39,6 +50,19 @@
 		display: block;
 	}
 	
+}
+
+@media (max-width: 979px) {
+
+	.promo {
+		bottom: -100px;
+		right: 5px;
+	}
+
+	.promo img {
+		width: 100px;
+	}
+
 }
 
 @media (max-width: 979px) and (min-width: 768px) {
@@ -94,12 +118,14 @@
 	}
 
 	.promo {
-	padding: 20px 50px 0;
-	height: 200px;
-	text-align: center;
+		display: none;
 	}
 
-	.promo img {
-		max-width: 100px;
+	.promo-mobile {
+		display: block;
+		padding: 20px 50px 0;
+		height: 200px;
+		text-align: center;
 	}
+
 }
